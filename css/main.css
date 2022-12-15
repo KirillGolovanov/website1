@@ -250,9 +250,10 @@ span {
 
   iframe {
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 270px;
     border-radius: 30px;
-    height: 60%;
+    height: 550px;
+    width: 1000px;
     border: 3px solid #181D31;
   }
   .navig {
