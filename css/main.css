@@ -248,7 +248,7 @@ span {
     blinkTextCursor 500ms steps(44) infinite normal;
   }
 
-  video {
+  iframe {
     margin-top: 40px;
     margin-left: 120px;
     border-radius: 30px;
