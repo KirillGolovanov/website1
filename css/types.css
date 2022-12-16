@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,300&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300&family=Source+Code+Pro:wght@200;800&display=swap');
 @font-face {
-    font-family: Oswal; 
+    font-family: Oswald; 
     src: url(static/Oswald-VariableFont_wght.ttf);
     }
 @keyframes ani {
@@ -113,7 +113,7 @@ footer {
     flex-direction: row;
     height: 500px;
     color: #181D31;
-    gap: 10em;
+    gap: 5em;
     opacity: 0;
     animation: ani 2.5s forwards;
     padding-top: 50px;
