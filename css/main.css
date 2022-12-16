@@ -963,6 +963,7 @@ span {
       max-width: 480px;
       padding-top: 8px;
       padding-bottom: 8px;
+      margin-top: 23px;
   }
   header {
       max-width: 480px;
@@ -1020,6 +1021,14 @@ span {
   }
   .n {
     padding-top: 26px;
+  }
+
+  .container01 .box {
+    height: 130px;
+    margin-left: -120px;
+  }
+  .container01 {
+    height: 13vh;
   }
   #gallery {
 
