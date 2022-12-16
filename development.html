@@ -7,20 +7,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/development.css">
+    <link rel="stylesheet" type="text/css" href="development.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <a href="index.html"><img src="media\Nürburgring.png" class="img1"></a>
-        <nav>
-            <a href="news.html" class="a1">Новости</a>
-            <a href="facts.html" class="a1"><b>Факты</b></a>
-            <a href="article.html" class="a1">Статьи</a>
-            <a href="types.html" class="a1">Виды соревнований</a>
-            <a href="kabinet.html" class="a1">Уголок автолюбителя</a>
-        </nav>
+    <header class="header">
+        <a href="css/index.html"><img src="media\Nürburgring.png" class="img1"></a>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__list">
+                    <a href="css/news.html" class="a1">Новости</a>
+                </ul>
+                <ul class="header__list">
+                    <a href="css/facts.html" class="a1"><b>Факты</b></a>
+                </ul>
+                <ul class="header__list">
+                    <a href="css/article.html" class="a1">Статьи</a>
+                </ul>
+                <ul class="header__list">
+                    <a href="css/types.html" class="a1">Виды соревнований</a>
+                </ul>
+                <ul class="header__list">
+                    <a href="css/kabinet.html" class="a1">Уголок автолюбителя</a>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                <li><a class="menu__item" href="css/news.html">Новости</a></li>
+                <li><a class="menu__item" href="css/facts.html">Факты</a></li>
+                <li><a class="menu__item" href="css/article.html">Статьи</a></li>
+                <li><a class="menu__item" href="css/types.html">Виды соревнований</a></li>
+                <li><a class="menu__item" href="css/kabinet.html">Уголок автолюбителя</a></li>
+                </ul>
+                </div>
     </header>
     <section>
         <div class="color"></div>
