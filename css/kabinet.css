@@ -351,12 +351,6 @@ section .color:nth-child(3)
 }
 
 @media (max-width:415px) {
-    body {
-    }
-    a.a1 {
-        color: #fff;
-    }
-
     .footer1 {
         font-size: 10px;
     }
