@@ -342,6 +342,6 @@ section .color:nth-child(3)
         height: 100px;
     }
     .box .square:nth-child(3) {
-        right: 9px;
+        right: 10px;
     }
 }
