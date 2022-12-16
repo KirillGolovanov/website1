@@ -304,6 +304,8 @@ section .color:nth-child(3)
 }
 
 
+
+
 @media (max-width:480px) {
 
     .footer1 {
@@ -342,6 +344,6 @@ section .color:nth-child(3)
         height: 100px;
     }
     .box .square:nth-child(3) {
-        right: 10px;
+        right: 9px;
     }
 }
