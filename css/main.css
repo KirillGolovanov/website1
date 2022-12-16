@@ -1004,11 +1004,26 @@ span {
     width: 280px;
   }
   iframe {
-    width: 280px;
+    width: 350px;
     height: 200px;
-    margin-left: 75px;
+    margin-left: 35px;
   }
   .phrase1 {
-    margin-right: 50px;
+    margin-right: 20px;
+  }
+  .button {
+    width: 200px;
+    padding-top: 30px;
+    padding-left: 60px;
+    transition: 0.3s;
+    transform: scale(1.0);
+  }
+  .n {
+    padding-top: 26px;
+  }
+  #gallery {
+
+  }
+  #gallery div img {
   }
 }
