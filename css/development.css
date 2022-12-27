@@ -197,15 +197,15 @@ footer {
         bottom:-360px;
     }
     header {
-        max-width: 480px;
-        padding: 0px;
-        box-shadow: 0px 0px 0px black;
-    }
-  
-    nav {
-        margin-left: -300px;
-        width: 10px;
-    }
+      max-width: 480px;
+      padding: 0px;
+      box-shadow: 0px 0px 0px black;
+  }
+  nav {
+    display: none;
+      margin-left: -300px;
+      width: 10px;
+  }
     .content-container-1 {
         padding-top: 100px;
     }
